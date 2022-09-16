@@ -13,31 +13,31 @@ const Navbar = () => {
             </CustomLink>
         </li>
         <li className='navbar-item'>
-            <CustomLink as={Link} to='/'>
+            <CustomLink as={Link} to='/about'>
                 <span className='text-primary'>02. </span>
                 About
             </CustomLink>
         </li>
         <li className='navbar-item'>
-            <CustomLink as={Link} to='/'>
+            <CustomLink as={Link} to='/resume'>
                 <span className='text-primary'>03. </span>
                 Resume
             </CustomLink>
         </li>
         <li className='navbar-item'>
-            <CustomLink as={Link} to='/'>
+            <CustomLink as={Link} to='/projects'>
                 <span className='text-primary'>04. </span>
                 Projects
             </CustomLink>
         </li>
         <li className='navbar-item'>
-            <CustomLink as={Link} to='/'>
+            <CustomLink as={Link} to='/blogs'>
                 <span className='text-primary'>05. </span>
                 Blogs
             </CustomLink>
         </li>
         <li className='navbar-item'>
-            <CustomLink as={Link} to='/'>
+            <CustomLink as={Link} to='/contacts'>
                 <span className='text-primary'>06. </span>
                 Contacts
             </CustomLink>

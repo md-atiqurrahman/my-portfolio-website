@@ -39,7 +39,8 @@
     border-radius: 50%;
     z-index: 1;
 }
-.img-holder{
+
+.img-holder {
     position: absolute;
     inset: 6px;
     border: none;
@@ -50,4 +51,42 @@
     flex-direction: column;
     border-radius: 50%;
     overflow: hidden;
+}
+
+.icon {
+    color: #bfbecb;
+}
+
+.icon-container li {
+    transition: 0.6s;
+}
+
+.icon-container li:hover .icon {
+    color: black;
+}
+
+.arrow-container {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.arrow-container .arrow-icon {
+    color: #bfbecb;
+    cursor: pointer;
+    position: absolute;
+    animation: movement 1s linear infinite;
+}
+
+@keyframes movement {
+    25%{
+        top: 0;
+    }
+    75%{
+        bottom: 0;
+    }
+}
+
+.arrow-container:hover .arrow-icon{
+    color: #72e2ae;
 }
