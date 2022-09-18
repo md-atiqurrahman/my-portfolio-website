@@ -3,6 +3,20 @@ import img from '../../../images/About/About image.jpg';
 import './About.css';
 
 const About = () => {
+     
+    const handleDownload = () =>{
+       fetch('resume.pdf')
+       .then(res =>{
+        res.blob().then(blob =>{
+            const fileUrl = window.URL.createObjectURL(blob);
+            let aLink = document.createElement('a');
+            aLink.href = fileUrl;
+            aLink.download = 'resume.pdf';
+            aLink.click();
+        })
+       })
+    }
+
     return (
         <div className='bg-[#0f172a]'>
             <div className='pt-[128px] pb-[56px] text-center '>
@@ -13,7 +27,15 @@ const About = () => {
             </div>
             <div className="hero relative">
                 <div className="hero-content flex-col lg:flex-row pt-0 pb-[128px] items-center gap-7">
-                    <img src={img} className="w-[590px] h-[377px] rounded-lg shadow-2xl" alt='Atiqur Rahman' />
+                    <div className='overflow-hidden rounded-lg'>
+                        <div className='relative border-[10px] rounded-lg border-primary border-opacity-20'>
+                            <span className='bottom-anime absolute top-auto left-auto -bottom-2.5 h-2.5 w-10 rounded-full bg-gradient-to-r from-primary to-transparent'></span>
+                            <span className='left-anime absolute top-auto -left-2.5 h-10 w-2.5 rounded-full bg-gradient-to-b from-primary to-transparent'></span>
+                            <span className='top-anime absolute right-auto -top-2.5 h-2.5 w-10 rounded-full bg-gradient-to-l from-primary to-transparent'></span>
+                            <span className='right-anime absolute bottom-auto -right-2.5 h-10 w-2.5 rounded-full bg-gradient-to-t from-primary to-transparent'></span>
+                            <img src={img} className="w-[590px] h-[377px] rounded-lg shadow-2xl" alt='Atiqur Rahman' />
+                        </div>
+                    </div>
                     <div>
                         <h1 className='text-primary text-[26px] leading-[1.3] font-semibold mb-[12px]'>
                             <span className='text-white'>Hi, I am </span>
@@ -89,7 +111,7 @@ const About = () => {
                                 : Available
                             </div>
                         </div>
-                        <button className="resume-btn">Download Resume</button>
+                        <button onClick={handleDownload} className="resume-btn">Download Resume</button>
                     </div>
                 </div>
             </div>
