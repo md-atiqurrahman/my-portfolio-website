@@ -75,18 +75,23 @@
     color: #bfbecb;
     cursor: pointer;
     position: absolute;
-    animation: movement 1s linear infinite;
+    animation: arrowAnimate 1s infinite;
 }
 
-@keyframes movement {
-    25%{
-        top: 0;
+@keyframes arrowAnimate {
+
+    0%,
+    100% {
+        transform: translateY(25%);
+        animation-timing-function: cubic-bezier(0.8,0,1,1);
     }
-    75%{
-        bottom: 0;
+
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,.2,1);
     }
 }
 
-.arrow-container:hover .arrow-icon{
+.arrow-container:hover .arrow-icon {
     color: #72e2ae;
 }

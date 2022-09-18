@@ -1,0 +1,42 @@
+.title-divider{
+    position: relative;
+}
+.title-divider .circle{
+    position: absolute;
+    animation: titleAnimate 3s ease-in-out infinite;
+}
+
+@keyframes titleAnimate {
+    0%{
+        transform: translateX(-6px);
+    }
+    100%{
+        transform: translateX(128px);
+    }
+}
+
+.resume-btn{
+    width: auto;
+    color: black;
+    font-size: 14px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(#72e2ae, #72e2ae 50%, white 50%, white);
+    background-size: 100% 200%;
+    transition: .2s;
+}
+.resume-btn:hover{
+  background-position: 100% 100%;
+}
+.list-circle{
+    background: #72e2ae;
+    height: 8px;
+    width: 8px;
+    left: 0;
+    border-radius: 50%;
+}
