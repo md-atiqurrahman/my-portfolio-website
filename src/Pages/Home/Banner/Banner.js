@@ -21,19 +21,19 @@ const Banner = () => {
                 </div>
                 <div>
                     <ul className='icon-container flex gap-4'>
-                        <li className='flex justify-center items-center border border-[#bfbecb] rounded-[4px] w-[38px] h-[38px] hover:bg-[#72e2ae]
+                        <li className='flex justify-center items-center border border-[#ffffff26] rounded-[4px] w-[38px] h-[38px] hover:bg-[#72e2ae]
                     hover:border-none'>
                             <a href="https://www.facebook.com/mdatiqur.rahaman.581/">
                                 <Icon className='icon' icon="bxl:facebook" width="20" height="20" />
                             </a>
                         </li>
-                        <li className='flex justify-center items-center border border-[#bfbecb] rounded-[4px] w-[38px] h-[38px] hover:bg-[#72e2ae]
+                        <li className='flex justify-center items-center border border-[#ffffff26] rounded-[4px] w-[38px] h-[38px] hover:bg-[#72e2ae]
                     hover:border-none'>
                             <a href="https://www.linkedin.com/in/atiqur-rahman-akaid/">
                                 <Icon className='icon' icon="bxl:linkedin-square" width="20" height="20" />
                             </a>
                         </li>
-                        <li className='flex justify-center items-center border border-[#bfbecb] rounded-[4px] w-[38px] h-[38px] hover:bg-[#72e2ae]
+                        <li className='flex justify-center items-center border border-[#ffffff26] rounded-[4px] w-[38px] h-[38px] hover:bg-[#72e2ae]
                     hover:border-none'>
                             <a href="https://github.com/md-atiqurrahman">
                                 <Icon className='icon' icon="ant-design:github-filled" width="20" height="20" />

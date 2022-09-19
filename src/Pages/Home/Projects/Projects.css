@@ -1,0 +1,52 @@
+.project-card {
+    padding: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    backdrop-filter: blur(12px);
+    position: relative;
+    background-color: #162033;
+    transition: 0.5s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+}
+
+.img-area {
+    position: relative;
+    display: inline-block;
+}
+
+.img-area img {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+.project-card:hover .overlay{
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlayLeft{
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+.project-card:hover .overlayLeft{
+    width: 100%;
+    background-color: #0f172aee;
+}

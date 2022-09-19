@@ -26,7 +26,7 @@ const About = () => {
                 </div>
             </div>
             <div className="hero relative">
-                <div className="hero-content flex-col lg:flex-row pt-0 pb-[128px] items-center gap-7">
+                <div className="hero-content grid grid-cols-2 gap-7 w-[92%] mx-auto pt-0 pb-[128px] px-0 ">
                     <div className='overflow-hidden rounded-lg'>
                         <div className='relative border-[10px] rounded-lg border-primary border-opacity-20'>
                             <span className='bottom-anime absolute top-auto left-auto -bottom-2.5 h-2.5 w-10 rounded-full bg-gradient-to-r from-primary to-transparent'></span>
