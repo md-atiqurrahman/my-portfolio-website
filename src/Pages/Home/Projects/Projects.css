@@ -14,30 +14,27 @@
 
 .img-area {
     position: relative;
-    display: inline-block;
-}
-
-.img-area img {
-    display: block;
 }
 
 .overlay {
     position: absolute;
     transition: all 0.3s ease;
     opacity: 0;
-    background-color: rgba(128, 128, 128, 0.8);
 }
 
 .project-card:hover .overlay{
     opacity: 1;
 }
 
-.text {
+.icon-container {
+    width: 240px;
     color: white;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    gap: 5px;
 }
 
 .overlayLeft{

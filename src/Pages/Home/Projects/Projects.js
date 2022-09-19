@@ -1,5 +1,6 @@
 import React from 'react';
 import img from '../../../images/Projects/project-image.jpg';
+import { Icon } from '@iconify/react';
 import './Projects.css';
 
 const Projects = () => {
@@ -16,8 +17,25 @@ const Projects = () => {
                     <div className='img-area'>
                         <img src={img} alt="" />
                         <div className='overlay overlayLeft'>
-                            <div className='text'>
-                                <a href="https://jantrik-45dcd.web.app/">Live site</a>
+                            <div className='icon-container flex justify-between'>
+                            <button className='bg-primary rounded-full w-[65px] h-[65px] flex flex-col justify-center items-center'>
+                                    <span className='text-[8px] text-[#0b1224] font-[900] uppercase'>
+                                        Live Site
+                                    </span>
+                                    <Icon icon="bi:eye" width="28" height="20" color='#0b1224'/>
+                                </button>
+                                <button className='bg-primary rounded-full w-[65px] h-[65px] flex flex-col justify-center items-center'>
+                                    <span className='text-[8px] text-[#0b1224] font-[900] uppercase'>
+                                        Client Side
+                                    </span>
+                                    <Icon icon="logos:github" width="28" height="20" color='#0b1224'/>
+                                </button>
+                                <button className='bg-primary rounded-full w-[65px] h-[65px] flex flex-col justify-center items-center'>
+                                    <span className='text-[8px] text-[#0b1224] font-[900] uppercase'>
+                                        Server Side
+                                    </span>
+                                    <Icon icon="akar-icons:github-fill" width="20" height="18" color='#0b1224'/>
+                                </button>
                             </div>
                         </div>
                     </div>
