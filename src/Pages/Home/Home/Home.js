@@ -8,13 +8,13 @@ import Skills from '../Skills/Skills';
 
 const Home = () => {
     return (
-        <div>
+        <main>
             <Banner></Banner>
             <About></About>
             <Skills></Skills>
             <Projects></Projects>
             <Contacts></Contacts>
-        </div>
+        </main>
     );
 };
 

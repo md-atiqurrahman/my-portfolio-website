@@ -3,7 +3,7 @@ import './Skills.css';
 
 const Skills = () => {
     return (
-        <div className='bg-[#0f172a]'>
+        <section className='bg-[#0f172a]'>
             <div className='pb-[56px] text-center '>
                 <h1 className='text-[36px] leading-[1.2] uppercase font-bold text-white mb-[20px]'>My Skills</h1>
                 <div className='title-divider bg-primary bg-opacity-20 w-32 h-1.5 mx-auto rounded'>
@@ -110,7 +110,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -4,7 +4,7 @@ import './Contacts.css';
 
 const Contacts = () => {
     return (
-        <div className='bg-[#0f172a] pb-[128px]'>
+        <section className='bg-[#0f172a] pb-[128px]'>
             <div className='pb-[56px] text-center '>
                 <h1 className='text-[36px] leading-[1.2] uppercase font-bold text-white mb-[20px]'>Contact Me</h1>
                 <div className='title-divider bg-primary bg-opacity-20 w-32 h-1.5 mx-auto rounded'>
@@ -14,7 +14,7 @@ const Contacts = () => {
             <div className='w-[92%] mx-auto flex'>
                 <div>
                     <h4 className='text-[#fafafa] text-[22px] leading-[1.2] font-semibold mb-[12px]'>Contact Information</h4>
-                    <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal mb-[12px]'>If you have any questions, please contact me without any hesitancy.I will be happy to have a conversation with you.</p>
+                    <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal mb-[12px]'>If you need make communication, please contact me without any hesitancy. I will be happy to have a conversation with you.</p>
                     <span className='inline-block h-1 w-20 rounded-full bg-primary bg-opacity-20'></span>
                     <div>
                         <div className='bg-[#162033] w-[539px] h-auto p-5 border border-[#ffffff26] rounded-[8px] backdrop-blur-[12px] flex flex-start mt-5'>
@@ -82,7 +82,7 @@ const Contacts = () => {
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
