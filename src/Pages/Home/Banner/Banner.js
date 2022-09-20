@@ -41,7 +41,7 @@ const Banner = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='flex justify-center items-end pt-[62px] pb-[80px]'>
+                <div className='flex justify-center items-end pt-[62px] pb-[47px]'>
                     <div className='arrow-container'>
                         <Icon className='arrow-icon' icon="akar-icons:arrow-down" width='14px' height='14px'/>
                     </div>
