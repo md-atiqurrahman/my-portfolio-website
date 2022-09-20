@@ -21,7 +21,7 @@ const Projects = () => {
                         <img src={img1} alt="" />
                         <div className='overlay overlayLeft'>
                             <div className='project-icon flex justify-between'>
-                                <Link to='//jantrik-45dcd.web.app/'>
+                                <Link to='//jantrik-45dcd.web.app/' target='_blank'>
                                     <button className='bg-primary rounded-full w-[65px] h-[65px] flex flex-col justify-center items-center'>
                                         <span className='text-[8px] text-[#0b1224] font-[900] uppercase'>
                                             Live Site
@@ -29,7 +29,7 @@ const Projects = () => {
                                         <Icon icon="bi:eye" width="28" height="20" color='#0b1224' />
                                     </button>
                                 </Link>
-                                <Link to='//github.com/md-atiqurrahman/jantrik-client-side'>
+                                <Link to='//github.com/md-atiqurrahman/jantrik-client-side' target='_blank'>
                                     <button className='bg-primary rounded-full w-[65px] h-[65px] flex flex-col justify-center items-center'>
                                         <span className='text-[8px] text-[#0b1224] font-[900] uppercase'>
                                             Client Side
@@ -37,7 +37,7 @@ const Projects = () => {
                                         <Icon icon="logos:github" width="28" height="20" color='#0b1224' />
                                     </button>
                                 </Link>
-                                <Link to='//github.com/md-atiqurrahman/jantrik-server-side'>
+                                <Link to='//github.com/md-atiqurrahman/jantrik-server-side' target='_blank'>
                                     <button className='bg-primary rounded-full w-[65px] h-[65px] flex flex-col justify-center items-center'>
                                         <span className='text-[8px] text-[#0b1224] font-[900] uppercase'>
                                             Server Side
@@ -58,7 +58,7 @@ const Projects = () => {
                         <img src={img2} alt="" />
                         <div className='overlay overlayLeft'>
                             <div className='project-icon flex justify-between'>
-                                <Link to='//gym-equipment-store.web.app/'>
+                                <Link to='//gym-equipment-store.web.app/' target='_blank'>
                                     <button className='bg-primary rounded-full w-[65px] h-[65px] flex flex-col justify-center items-center'>
                                         <span className='text-[8px] text-[#0b1224] font-[900] uppercase'>
                                             Live Site
@@ -66,7 +66,7 @@ const Projects = () => {
                                         <Icon icon="bi:eye" width="28" height="20" color='#0b1224' />
                                     </button>
                                 </Link>
-                                <Link to='//github.com/md-atiqurrahman/gym-equipment-client-side'>
+                                <Link to='//github.com/md-atiqurrahman/gym-equipment-client-side' target='_blank'>
                                     <button className='bg-primary rounded-full w-[65px] h-[65px] flex flex-col justify-center items-center'>
                                         <span className='text-[8px] text-[#0b1224] font-[900] uppercase'>
                                             Client Side
@@ -74,7 +74,7 @@ const Projects = () => {
                                         <Icon icon="logos:github" width="28" height="20" color='#0b1224' />
                                     </button>
                                 </Link>
-                                <Link to='//github.com/md-atiqurrahman/gym-equipment-server-side'>
+                                <Link to='//github.com/md-atiqurrahman/gym-equipment-server-side' target='_blank'>
                                     <button className='bg-primary rounded-full w-[65px] h-[65px] flex flex-col justify-center items-center'>
                                         <span className='text-[8px] text-[#0b1224] font-[900] uppercase'>
                                             Server Side
@@ -95,7 +95,7 @@ const Projects = () => {
                         <img src={img3} alt="" />
                         <div className='overlay overlayLeft'>
                             <div className='project-icon flex justify-evenly'>
-                                <Link to='//independent-service-prov-47fa3.web.app/'>
+                                <Link to='//independent-service-prov-47fa3.web.app/' target='_blank'>
                                     <button className='bg-primary rounded-full w-[65px] h-[65px] flex flex-col justify-center items-center'>
                                         <span className='text-[8px] text-[#0b1224] font-[900] uppercase'>
                                             Live Site
@@ -103,7 +103,7 @@ const Projects = () => {
                                         <Icon icon="bi:eye" width="28" height="20" color='#0b1224' />
                                     </button>
                                 </Link>
-                                <Link to='//github.com/md-atiqurrahman/independent-service-provider'>
+                                <Link to='//github.com/md-atiqurrahman/independent-service-provider' target='_blank'>
                                     <button className='bg-primary rounded-full w-[65px] h-[65px] flex flex-col justify-center items-center'>
                                         <span className='text-[8px] text-[#0b1224] font-[900] uppercase'>
                                             Client Side

@@ -1,0 +1,18 @@
+.mail-btn{
+    width: 120px;
+    color: black;
+    font-size: 14px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(#72e2ae, #72e2ae 50%, white 50%, white);
+    background-size: 100% 200%;
+    transition: .2s;
+}
+.mail-btn:hover{
+    background-position: 100% 100%;
+}

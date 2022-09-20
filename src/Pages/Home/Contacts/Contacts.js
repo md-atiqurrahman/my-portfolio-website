@@ -11,40 +11,75 @@ const Contacts = () => {
                     <div className='circle bg-[#00ff89] border rounded-full w-1.5 h-full bg-opacity-100'></div>
                 </div>
             </div>
-            <div className=' w-[92%] mx-auto'>
-                <h4 className='text-[#fafafa] text-[22px] leading-[1.2] font-semibold mb-[12px]'>Contact Information</h4>
-                <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal mb-[12px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. A omnis, iusto harum possimus non praesentium qui facere.</p>
-                <span className='inline-block h-1 w-20 rounded-full bg-primary bg-opacity-20'></span>
+            <div className='w-[92%] mx-auto flex'>
                 <div>
-                    <div className='bg-[#162033] w-[539px] h-auto p-5 border border-[#ffffff26] rounded-[8px] backdrop-blur-[12px] flex flex-start mt-5'>
-                        <div className='inline-flex justify-center items-center h-16 w-16 bg-primary bg-opacity-10 rounded-full text-primary mr-4'>
-                            <Icon icon="charm:phone" width="26" height="26" />
+                    <h4 className='text-[#fafafa] text-[22px] leading-[1.2] font-semibold mb-[12px]'>Contact Information</h4>
+                    <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal mb-[12px]'>If you have any questions, please contact me without any hesitancy.I will be happy to have a conversation with you.</p>
+                    <span className='inline-block h-1 w-20 rounded-full bg-primary bg-opacity-20'></span>
+                    <div>
+                        <div className='bg-[#162033] w-[539px] h-auto p-5 border border-[#ffffff26] rounded-[8px] backdrop-blur-[12px] flex flex-start mt-5'>
+                            <div className='inline-flex justify-center items-center h-16 w-16 bg-primary bg-opacity-10 rounded-full text-primary mr-4'>
+                                <Icon icon="charm:phone" width="26" height="26" />
+                            </div>
+                            <div>
+                                <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[8px]'>Contact on phone</h5>
+                                <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>+8801784009104</p>
+                                <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>+8801773204011</p>
+                            </div>
                         </div>
-                        <div>
-                            <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[8px]'>Contact on phone</h5>
-                            <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>+8801784009104</p>
-                            <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>+8801773204011</p>
+                        <div className='bg-[#162033] w-[539px] h-auto p-5 border border-[#ffffff26] rounded-[8px] backdrop-blur-[12px] flex flex-start mt-5'>
+                            <div className='inline-flex justify-center items-center h-16 w-16 bg-primary bg-opacity-10 rounded-full text-primary mr-4'>
+                                <Icon icon="ant-design:mail-outlined" width="26" height="26" />
+                            </div>
+                            <div>
+                                <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[8px]'>Contact on gmail</h5>
+                                <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>mdatiqurrahman9104@gmail.com</p>
+                                <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>mdatiqurrahman4011@gmail.com</p>
+                            </div>
+                        </div>
+                        <div className='bg-[#162033] w-[539px] h-auto p-5 border border-[#ffffff26] rounded-[8px] backdrop-blur-[12px] flex flex-start mt-5'>
+                            <div className='inline-flex justify-center items-center h-16 w-16 bg-primary bg-opacity-10 rounded-full text-primary mr-4'>
+                                <Icon icon="akar-icons:location" width="26" height="26" />
+                            </div>
+                            <div>
+                                <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[8px]'>Contact address</h5>
+                                <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>Osmanpur, Pirganj, Rangpur, Bangladesh</p>
+                            </div>
                         </div>
                     </div>
-                    <div className='bg-[#162033] w-[539px] h-auto p-5 border border-[#ffffff26] rounded-[8px] backdrop-blur-[12px] flex flex-start mt-5'>
-                        <div className='inline-flex justify-center items-center h-16 w-16 bg-primary bg-opacity-10 rounded-full text-primary mr-4'>
-                            <Icon icon="ant-design:mail-outlined" width="26" height="26" />
+                </div>
+                <div>
+                    <form className='bg-[#162033] w-[681px] h-auto border border-[#ffffff26] rounded-[8px] backdrop-blur-[12px]'>
+                        <div className="card-body p-5">
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text text-[#fafafa]">Name</span>
+                                </label>
+                                <input type="text" placeholder="Enter your name..." className="input border-[#ffffff26] rounded-[4px] focus:border-primary bg-[#162033] text-[#fafafa]" />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text text-[#fafafa]">Email</span>
+                                </label>
+                                <input type="email" placeholder="Enter your email..." className="input border-[#ffffff26] rounded-[4px] focus:border-primary bg-[#162033] text-[#fafafa]" />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text text-[#fafafa]">Subject</span>
+                                </label>
+                                <input type="text" placeholder="Enter subject..." className="input border-[#ffffff26] rounded-[4px] focus:border-primary bg-[#162033] text-[#fafafa]" />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text text-[#fafafa]">Message</span>
+                                </label>
+                                <textarea className="textarea border-[#ffffff26] rounded-[4px] focus:border-primary bg-[#162033] text-[#fafafa] h-[117px]" placeholder="Enter your message..."></textarea>
+                            </div>
+                            <div className="form-control mt-6">
+                                <button className="mail-btn">Send Mail</button>
+                            </div>
                         </div>
-                        <div>
-                            <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[8px]'>Contact on gmail</h5>
-                            <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>mdatiqurrahman9104@gmail.com</p>
-                            <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>mdatiqurrahman4011@gmail.com</p>
-                        </div>
-                    </div>
-                    <div className='bg-[#162033] w-[539px] h-auto p-5 border border-[#ffffff26] rounded-[8px] backdrop-blur-[12px] flex flex-start mt-5'>
-                        <div className='inline-flex justify-center items-center h-16 w-16 bg-primary bg-opacity-10 rounded-full text-primary mr-4'>
-                            <Icon icon="akar-icons:location" width="26" height="26" />
-                        </div>
-                        <div>
-                            <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[8px]'>Contact address</h5>
-                            <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>Osmanpur, Pirganj, Rangpur, Bangladesh</p>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
