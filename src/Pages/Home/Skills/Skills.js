@@ -3,7 +3,7 @@ import './Skills.css';
 
 const Skills = () => {
     return (
-        <section className='bg-[#0f172a]'>
+        <section id='skills' className='bg-[#0f172a] pt-[128px]'>
             <div className='pb-[56px] text-center '>
                 <h1 className='text-[36px] leading-[1.2] uppercase font-bold text-white mb-[20px]'>My Skills</h1>
                 <div className='title-divider bg-primary bg-opacity-20 w-32 h-1.5 mx-auto rounded'>
@@ -37,7 +37,7 @@ const Skills = () => {
                         <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium'>Full-stack Development</h5>
                     </div>
                 </div>
-                <div className='grid grid-cols-2 gap-7 pb-[128px] w-[92%] mx-auto'>
+                <div className='grid grid-cols-2 gap-7  w-[92%] mx-auto'>
                     <div>
                         <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[12px]'>
                             Javascript -

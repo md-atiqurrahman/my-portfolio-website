@@ -18,7 +18,7 @@ const About = () => {
     }
 
     return (
-        <section className='bg-[#0f172a]'>
+        <section id='about' className='bg-[#0f172a]'>
             <div className='pt-[128px] pb-[56px] text-center '>
                 <h1 className='text-[36px] leading-[1.2] uppercase font-bold text-white mb-[20px]'>About Me</h1>
                 <div className='title-divider bg-primary bg-opacity-20 w-32 h-1.5 mx-auto rounded'>
@@ -26,7 +26,7 @@ const About = () => {
                 </div>
             </div>
             <div className="hero relative">
-                <div className="hero-content grid grid-cols-2 gap-7 w-[92%] mx-auto pt-0 pb-[128px] px-0 ">
+                <div className="hero-content grid grid-cols-2 gap-7 w-[92%] mx-auto pt-0 pb-0 px-0 ">
                     <div className='overflow-hidden rounded-lg'>
                         <div className='relative border-[10px] rounded-lg border-primary border-opacity-20'>
                             <span className='bottom-anime absolute top-auto left-auto -bottom-2.5 h-2.5 w-10 rounded-full bg-gradient-to-r from-primary to-transparent'></span>

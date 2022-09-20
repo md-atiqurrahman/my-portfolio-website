@@ -4,7 +4,7 @@ import './Contacts.css';
 
 const Contacts = () => {
     return (
-        <section className='bg-[#0f172a] pb-[128px]'>
+        <section id='contacts' className='bg-[#0f172a] pt-[128px] pb-[128px]'>
             <div className='pb-[56px] text-center '>
                 <h1 className='text-[36px] leading-[1.2] uppercase font-bold text-white mb-[20px]'>Contact Me</h1>
                 <div className='title-divider bg-primary bg-opacity-20 w-32 h-1.5 mx-auto rounded'>

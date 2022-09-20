@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import CustomLink from '../CustomLink/CustomLink';
 import './Navbar.css';
 import img from '../../../images/Header/name logo.png';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Navbar = () => {
     const navbarItems = <>
@@ -13,34 +14,28 @@ const Navbar = () => {
             </CustomLink>
         </li>
         <li className='navbar-item'>
-            <CustomLink as={Link} to='/about'>
+            <AnchorLink href='#about'>
                 <span className='text-primary'>02. </span>
                 About
-            </CustomLink>
+            </AnchorLink>
         </li>
         <li className='navbar-item'>
-            <CustomLink as={Link} to='/resume'>
+            <AnchorLink href='#skills'>
                 <span className='text-primary'>03. </span>
-                Resume
-            </CustomLink>
+                Skills
+            </AnchorLink>
         </li>
         <li className='navbar-item'>
-            <CustomLink as={Link} to='/projects'>
+            <AnchorLink href='#projects'>
                 <span className='text-primary'>04. </span>
                 Projects
-            </CustomLink>
+            </AnchorLink>
         </li>
         <li className='navbar-item'>
-            <CustomLink as={Link} to='/blogs'>
+            <AnchorLink href='#contacts'>
                 <span className='text-primary'>05. </span>
-                Blogs
-            </CustomLink>
-        </li>
-        <li className='navbar-item'>
-            <CustomLink as={Link} to='/contacts'>
-                <span className='text-primary'>06. </span>
                 Contacts
-            </CustomLink>
+            </AnchorLink>
         </li>
     </>
 
