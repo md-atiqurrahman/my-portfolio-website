@@ -1,5 +1,5 @@
 import React from 'react';
-import owner from '../../../images/Banner/formal.png';
+import about from '../../../images/Banner/formal.png';
 import { Icon } from '@iconify/react';
 import './Banner.css';
 import { Link } from 'react-router-dom';
@@ -10,7 +10,7 @@ const Banner = () => {
             <div className='flex flex-col justify-center items-center'>
                 <div className='avatar'>
                     <div className='img-holder'>
-                        <img src={owner} alt="" />
+                        <img src={about} alt="Atiqur Rahman" />
                     </div>
                 </div>
                 <h1 className='text-primary text-[46px] leading-[1.2] font-bold mb-[20px]'>
