@@ -42,7 +42,11 @@
     border-radius: 50%;
 }
 .bottom-anime{
-    animation: RightToLeftAnimate 3s ease-in-out infinite;
+    animation-name: RightToLeftAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: -60s;
 }
 
 @keyframes RightToLeftAnimate {

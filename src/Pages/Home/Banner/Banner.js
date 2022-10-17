@@ -3,6 +3,7 @@ import about from '../../../images/Banner/formal.png';
 import { Icon } from '@iconify/react';
 import './Banner.css';
 import { Link } from 'react-router-dom';
+import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
     return (
@@ -13,9 +14,15 @@ const Banner = () => {
                         <img src={about} alt="Atiqur Rahman" />
                     </div>
                 </div>
-                <h1 className='text-primary text-[46px] leading-[1.2] font-bold mb-[20px]'>
-                    <span className='text-white'>Hi, I am </span>
-                    Atiqur Rahman
+                <h1 className='flex text-primary text-[46px] leading-[1.2] font-bold mb-[20px]'>
+                   <span className='text-white mr-[15px]'>Hi, I am </span>
+                    <Typewriter
+                        options={{
+                            strings: ['Atiqur Rahman', 'MERN Stack Developer'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    />
                 </h1>
                 <div className='w-[70%] text-center mb-[28px]'>
                     <p className='text-[#bfbecb] text-[18px] leading-[1.5] font-normal opacity-[1]'>I am a mern stack web developer. I can provide clean, re-useable and organized code. I can also make faster web application by using JavaScript only.</p>
