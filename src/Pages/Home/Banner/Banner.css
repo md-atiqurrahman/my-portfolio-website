@@ -11,15 +11,16 @@
 .avatar::before {
     content: '';
     position: absolute;
-    inset: -10px 56px;
+    inset: -20px 0px;
     background: linear-gradient(315deg, #373b44, #72e2ae);
     transition: 0.5s;
     animation: animate 4s linear infinite;
 }
 
-.avatar:hover::before {
+/* .avatar:hover::before {
+    inset: -10px 56px;(need to set in .avatar::before)
     inset: -20px 0px;
-}
+} */
 
 @keyframes animate {
     0% {

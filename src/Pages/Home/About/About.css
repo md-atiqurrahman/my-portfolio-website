@@ -1,22 +1,24 @@
-.title-divider{
+.title-divider {
     position: relative;
     overflow: hidden;
 }
-.title-divider .circle{
+
+.title-divider .circle {
     position: absolute;
     animation: titleAnimate 3s ease-in-out infinite;
 }
 
 @keyframes titleAnimate {
-    0%{
+    0% {
         transform: translateX(-6px);
     }
-    100%{
+
+    100% {
         transform: translateX(128px);
     }
 }
 
-.resume-btn{
+.resume-btn {
     width: auto;
     color: black;
     font-size: 14px;
@@ -31,65 +33,75 @@
     background-size: 100% 200%;
     transition: .2s;
 }
-.resume-btn:hover{
-  background-position: 100% 100%;
+
+.resume-btn:hover {
+    background-position: 100% 100%;
 }
-.list-circle{
+
+.list-circle {
     background: #72e2ae;
     height: 8px;
     width: 8px;
     left: 0;
     border-radius: 50%;
 }
-.bottom-anime{
+
+.bottom-anime {
     animation-name: RightToLeftAnimate;
     animation-duration: 3s;
-    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-delay: -60s;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes RightToLeftAnimate {
-    0%{
+    0% {
         right: -40px;
     }
-    100%{
+
+    100% {
         right: 100%;
+
     }
 }
-.left-anime{
+
+.left-anime {
     animation: BottomToTopAnimate 3s ease-in-out infinite;
 }
 
 @keyframes BottomToTopAnimate {
-    0%{
+    0% {
         bottom: -40px;
     }
-    100%{
+
+    100% {
         bottom: 100%;
     }
 }
-.top-anime{
+
+.top-anime {
     animation: LeftToRightAnimate 3s ease-in-out infinite;
 }
 
 @keyframes LeftToRightAnimate {
-    0%{
+    0% {
         left: -40px;
     }
-    100%{
+
+    100% {
         left: 100%;
     }
 }
-.right-anime{
+
+.right-anime {
     animation: TopToBottomAnimate 3s ease-in-out infinite;
 }
 
 @keyframes TopToBottomAnimate {
-    0%{
+    0% {
         top: -40px;
     }
-    100%{
+
+    100% {
         top: 100%;
     }
 }

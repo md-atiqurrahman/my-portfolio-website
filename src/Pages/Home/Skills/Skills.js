@@ -1,7 +1,31 @@
 import React from 'react';
 import './Skills.css';
+import CountUp from 'react-countup';
+
+
 
 const Skills = () => {
+    window.onload = function () {
+        let circularProgress = document.querySelector('.circular-progress');
+        const progressValue = document.querySelector('.progress-value');
+
+        let startValue = 0,
+            endValue = 95,
+            speed = 30;
+
+        const progress = setInterval(() => {
+            startValue++;
+
+
+            progressValue.textContent = `${startValue}%`;
+            circularProgress.style.background = `conic-gradient(#72e2ae ${startValue * 3.6}deg, #ededed 0deg)`
+
+            if (startValue === endValue) {
+                clearInterval(progress)
+            }
+        }, speed);
+    }
+
     return (
         <section id='skills' className='bg-[#0f172a] pt-[128px]'>
             <div className='pb-[56px] text-center '>
@@ -14,7 +38,26 @@ const Skills = () => {
                 <div className='grid grid-cols-4 gap-7 pb-[56px] w-[92%] mx-auto'>
                     <div className='card w-[291px] h-[205px] text-center'>
                         <div className='mb-[15px]'>
-                            <div className="radial-progress text-primary" style={{ "--value": 95, "--size": '120px' }}><span className='text-[#fafafa]'>95%</span> </div>
+                            <div className="container">
+                                <div className="circular-progress">
+                                    <span className="progress-value text-white text-[30px] font-semibold">0%</span>
+                                </div>
+                            </div>
+
+
+                            {/* <div className="radial-progress text-primary" style={{ "--value": 95, "--size": '120px' }}>
+
+                                <div className='text-[#fafafa]'>
+                                    <CountUp start={0} end={95} duration={2} enableScrollSpy={true} scrollSpyDelay={50}>
+                                        {({ countUpRef }) => (
+                                            <div>
+                                                <span ref={countUpRef} />
+                                                <span>%</span>
+                                            </div>
+                                        )}
+                                    </CountUp>
+                                </div>
+                            </div> */}
                         </div>
                         <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium'>Front-end Development</h5>
                     </div>

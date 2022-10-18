@@ -9,3 +9,32 @@
 .card:hover{
    transform: translateY(-6px);
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circular-progress{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#72e2ae 3.6deg, #ededed 0deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-progress::before{
+    content: '';
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: #162033;
+}
+
+.progress-value{
+    position: relative;
+}
