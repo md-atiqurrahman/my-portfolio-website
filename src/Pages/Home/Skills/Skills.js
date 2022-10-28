@@ -38,14 +38,14 @@ const Skills = () => {
                 <div className='grid grid-cols-4 gap-7 pb-[56px] w-[92%] mx-auto'>
                     <div className='card w-[291px] h-[205px] text-center'>
                         <div className='mb-[15px]'>
-                            <div className="container">
+                            {/* <div className="container">
                                 <div className="circular-progress">
                                     <span className="progress-value text-white text-[30px] font-semibold">0%</span>
                                 </div>
-                            </div>
+                            </div> */}
 
 
-                            {/* <div className="radial-progress text-primary" style={{ "--value": 95, "--size": '120px' }}>
+                            <div className="radial-progress text-primary" style={{ "--value": 95, "--size": '120px' }}>
 
                                 <div className='text-[#fafafa]'>
                                     <CountUp start={0} end={95} duration={2} enableScrollSpy={true} scrollSpyDelay={50}>
@@ -57,7 +57,7 @@ const Skills = () => {
                                         )}
                                     </CountUp>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                         <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium'>Front-end Development</h5>
                     </div>
