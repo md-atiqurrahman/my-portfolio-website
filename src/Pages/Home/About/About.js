@@ -29,10 +29,10 @@ const About = () => {
                 <div className="hero-content grid grid-cols-2 gap-7 w-[92%] mx-auto pt-0 pb-0 px-0 ">
                     <div className='overflow-hidden rounded-lg'>
                         <div className='relative border-[10px] rounded-lg border-primary border-opacity-20'>
-                            <span className='bottom-anime absolute top-auto left-auto -bottom-2.5 h-2.5 w-10 rounded-full bg-gradient-to-r from-primary to-transparent'></span>
+                            {/* <span className='bottom-anime absolute top-auto left-auto -bottom-2.5 h-2.5 w-10 rounded-full bg-gradient-to-r from-primary to-transparent'></span>
                             <span className='left-anime absolute top-auto -left-2.5 h-10 w-2.5 rounded-full bg-gradient-to-b from-primary to-transparent'></span>
                             <span className='top-anime absolute right-auto -top-2.5 h-2.5 w-10 rounded-full bg-gradient-to-l from-primary to-transparent'></span>
-                            <span className='right-anime absolute bottom-auto -right-2.5 h-10 w-2.5 rounded-full bg-gradient-to-t from-primary to-transparent'></span>
+                            <span className='right-anime absolute bottom-auto -right-2.5 h-10 w-2.5 rounded-full bg-gradient-to-t from-primary to-transparent'></span> */}
                             <img src={img} className="w-[590px] h-[377px] rounded-lg shadow-2xl" alt='Atiqur Rahman' />
                         </div>
                     </div>
@@ -106,9 +106,9 @@ const About = () => {
                             <div className='list-circle'></div>
                             <div className='flex ml-[24px]'>
                                 <div className='w-[120px]'>
-                                    <strong>Hire </strong>
+                                    <strong>Contact </strong>
                                 </div>
-                                : Available
+                                : +8801784009104
                             </div>
                         </div>
                         <button onClick={handleDownload} className="resume-btn">Download Resume</button>

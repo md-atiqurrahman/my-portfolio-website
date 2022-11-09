@@ -25,7 +25,7 @@ const Banner = () => {
                     />
                 </h1>
                 <div className='w-[70%] text-center mb-[28px]'>
-                    <p className='text-[#bfbecb] text-[18px] leading-[1.5] font-normal opacity-[1]'>I am a mern stack web developer. I can provide clean, re-useable and organized code. I can also make faster web application by using JavaScript only.</p>
+                    <p className='text-[#bfbecb] text-[18px] leading-[1.5] font-normal opacity-[1]'>I am a MERN Stack Web Developer. I can provide clean, re-useable and organized code. I can also make faster web application by using ReactJS only.</p>
                 </div>
                 <div>
                     <ul className='icon-container flex gap-4'>

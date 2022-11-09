@@ -1,26 +1,30 @@
-.card{
+.card {
     padding: 16px;
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 8px;
     backdrop-filter: blur(12px);
     background-color: #162033;
     transition: 0.5s ease-in-out;
-}
-.card:hover{
-   transform: translateY(-6px);
-}
-
-.container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .circular-progress{
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
-    background: conic-gradient(#72e2ae 3.6deg, #ededed 0deg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,8 +33,8 @@
 .circular-progress::before{
     content: '';
     position: absolute;
-    width: 125px;
-    height: 125px;
+    width: 105px;
+    height: 105px;
     border-radius: 50%;
     background: #162033;
 }
