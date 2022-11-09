@@ -28,28 +28,28 @@ const Skills = () => {
           <div>
             <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[12px]'>
               Javascript -
-              <span className='text-primary'> (75%)</span>
+              <span className='text-primary'> (85%)</span>
             </h5>
             <progress className="progress progress-primary w-full h-[16px]" value="75" max="100"></progress>
           </div>
           <div>
             <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[12px]'>
               Node Js -
-              <span className='text-primary'> (65%)</span>
+              <span className='text-primary'> (75%)</span>
             </h5>
             <progress className="progress progress-primary w-full h-[16px]" value="65" max="100"></progress>
           </div>
           <div>
             <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[12px]'>
               React Js  -
-              <span className='text-primary'> (80%)</span>
+              <span className='text-primary'> (95%)</span>
             </h5>
             <progress className="progress progress-primary w-full h-[16px]" value="80" max="100"></progress>
           </div>
           <div>
             <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[12px]'>
               Express Js -
-              <span className='text-primary'> (70%)</span>
+              <span className='text-primary'> (75%)</span>
             </h5>
             <progress className="progress progress-primary w-full h-[16px]" value="70" max="100"></progress>
           </div>
