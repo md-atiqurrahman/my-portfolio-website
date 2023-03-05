@@ -10,23 +10,23 @@ const SkillCard = ({ name, value }) => {
             let startValue = 0,
                 speed = 30
 
-                let endValue ;
-                if(index === 0){
-                    endValue = 90
-                }
-                if(index === 1){
-                    endValue = 85
-                }
-                if(index === 2){
-                    endValue = 100
-                }
-                if(index === 3){
-                    endValue = 95
-                }
+            let endValue;
+            if (index === 0) {
+                endValue = 90
+            }
+            if (index === 1) {
+                endValue = 85
+            }
+            if (index === 2) {
+                endValue = 100
+            }
+            if (index === 3) {
+                endValue = 95
+            }
 
             const progress = setInterval(() => {
                 startValue++
-                
+
                 progressValue[index].innerHTML = `${startValue}%`;
                 circle.style.background = `conic-gradient(#72e2ae ${startValue * 3.6}deg, #ededed 0deg)`;
 
@@ -37,7 +37,7 @@ const SkillCard = ({ name, value }) => {
         })
     }
     return (
-        <div className='card w-[291px] h-[205px] text-center'>
+        <div className='card w-[340px] h-[205px] text-center'>
             <div className='mb-[15px]'>
                 <div className="container">
                     <div className='circular-progress' style={{ background: `conic-gradient(#72e2ae  ${value * 3.6}deg, #ededed 0deg)` }}>
