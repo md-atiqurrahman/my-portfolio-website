@@ -8,9 +8,9 @@ const Footer = () => {
     const year = today.getFullYear();
     return (
         <footer className='bg-[#0f172a] py-5 border-t border-[#ffffff26]'>
-            <div className='w-[92%] mx-auto flex justify-between items-center'>
+            <div className='w-[92%] mx-auto flex flex-col lg:flex-row justify-between items-center gap-7 lg:gap-0'>
                 <ul className='icon-container flex gap-4'>
-                    <Link to='//www.facebook.com/mdatiqur.rahaman.581/' target='_blank'>
+                    <Link to='//www.facebook.com/atiqur9104/' target='_blank'>
                         <li className='flex justify-center items-center border border-[#ffffff26] rounded-[4px] w-[38px] h-[38px] hover:bg-[#72e2ae] hover:border-none'>
                             <Icon className='icon' icon="bxl:facebook" width="20" height="20" />
                         </li>

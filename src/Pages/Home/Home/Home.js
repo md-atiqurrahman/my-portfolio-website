@@ -8,7 +8,7 @@ import Skills from '../Skills/Skills';
 
 const Home = () => {
     return (
-        <main>
+        <main className='px-[20px] md:px-0 lg:px-0'>
             <Banner></Banner>
             <About></About>
             <Skills></Skills>

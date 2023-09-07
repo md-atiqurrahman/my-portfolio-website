@@ -18,8 +18,8 @@ const Projects = () => {
                     <div className='circle bg-[#00ff89] border rounded-full w-1.5 h-full bg-opacity-100'></div>
                 </div>
             </div>
-            <div className='w-[95.7%] mx-auto grid grid-cols-3 justify-items-center gap-7'>
-                <div className='project-card w-[362px] h-[326px] relative'>
+            <div className='w-[95.7%] mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 justify-items-center gap-7'>
+                <div className='project-card w-[320px] md:w-[687px] lg:w-[362px] h-auto relative'>
                     <div className='img-area'>
                         <img src={img1} alt="" />
                         <div className='overlay overlayLeft'>
@@ -56,7 +56,7 @@ const Projects = () => {
                         <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>A (full-stack & responsive) Carpentry Tools Manufacturers website for wholesale and manage different items of carpentry tools.</p>
                     </div>
                 </div>
-                <div className='project-card w-[362px] h-[326px] relative'>
+                <div className='project-card w-[320px] md:w-[687px] lg:w-[362px] relative'>
                     <div className='img-area'>
                         <img src={img2} alt="" />
                         <div className='overlay overlayLeft'>
@@ -93,7 +93,7 @@ const Projects = () => {
                         <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>A (full-stack & responsive) gym equipment stocks management website for store and manage different items of gym equipment.</p>
                     </div>
                 </div>
-                <div className='project-card w-[362px] h-[326px] relative'>
+                <div className='project-card w-[320px] md:w-[687px] lg:w-[362px] relative'>
                     <div className='img-area'>
                         <img src={img3} alt="" />
                         <div className='overlay overlayLeft'>
@@ -122,7 +122,7 @@ const Projects = () => {
                         <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>A (front-end & responsive) independent catering services providing website for serve different catering services.</p>
                     </div>
                 </div>
-                <div className='project-card w-[362px] h-[326px] relative'>
+                <div className='project-card w-[320px] md:w-[687px] lg:w-[362px] relative'>
                     <div className='img-area'>
                         <img src={img4} alt="" />
                         <div className='overlay overlayLeft'>
@@ -159,7 +159,7 @@ const Projects = () => {
                         <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>A (full-stack & responsive) Doctors appointment taking and patient management website.</p>
                     </div>
                 </div>
-                <div className='project-card w-[362px] h-[326px] relative'>
+                <div className='project-card w-[320px] md:w-[687px] lg:w-[362px] relative'>
                     <div className='img-area'>
                         <img src={img5} alt="" />
                         <div className='overlay overlayLeft'>
@@ -188,7 +188,7 @@ const Projects = () => {
                         <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal'>A (front-end & responsive) Convention center website for convention center details and subscription plans.</p>
                     </div>
                 </div>
-                <div className='project-card w-[362px] h-[326px] relative'>
+                <div className='project-card w-[320px] md:w-[687px] lg:w-[362px] relative'>
                     <div className='img-area'>
                         <img src={img6} alt="" />
                         <div className='overlay overlayLeft'>

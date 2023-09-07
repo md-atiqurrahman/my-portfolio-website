@@ -16,12 +16,12 @@ const Skills = () => {
         </div>
       </div>
       <div>
-        <div className='circles flex justify-between gap-7 pb-[56px] w-[92%] mx-auto'>
+        <div className='circles flex flex-col lg:flex-row justify-between items-center gap-7 pb-[56px] w-[92%] mx-auto'>
           <SkillCard name='Front-end Development' value={90}></SkillCard>
           <SkillCard name='Back-end Development' value={80}></SkillCard>
           <SkillCard name='MERN Stack Development' value={100}></SkillCard>
         </div>
-        <div className='grid grid-cols-2 gap-7  w-[92%] mx-auto'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 content-center gap-7 md:w-[90%]  w-[92%] mx-auto'>
           <div>
             <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[12px]'>
               Javascript -

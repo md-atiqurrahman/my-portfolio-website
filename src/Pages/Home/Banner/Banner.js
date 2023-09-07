@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '../../../images/Banner/formal.png';
+import about from '../../../images/Banner/formal.jpg';
 import { Icon } from '@iconify/react';
 import './Banner.css';
 import { Link } from 'react-router-dom';
@@ -14,7 +14,7 @@ const Banner = () => {
                         <img src={about} alt="Atiqur Rahman" />
                     </div>
                 </div>
-                <h1 className='flex text-primary text-[46px] leading-[1.2] font-bold mb-[20px]'>
+                <h1 className='flex flex-col lg:flex-row items-center text-primary text-[28px] md:text-[46px] lg:text-[46px] leading-[1.2] font-bold mb-[20px]'>
                    <span className='text-white mr-[15px]'>Hi, I am </span>
                     <Typewriter
                         options={{
@@ -29,7 +29,7 @@ const Banner = () => {
                 </div>
                 <div>
                     <ul className='icon-container flex gap-4'>
-                        <Link to='//www.facebook.com/mdatiqur.rahaman.581/' target='_blank'>
+                        <Link to='//www.facebook.com/atiqur9104/' target='_blank'>
                             <li className='flex justify-center items-center border border-[#ffffff26] rounded-[4px] w-[38px] h-[38px] hover:bg-[#72e2ae] hover:border-none'>
                                 <Icon className='icon' icon="bxl:facebook" width="20" height="20" />
                             </li>

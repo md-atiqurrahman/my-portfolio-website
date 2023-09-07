@@ -37,7 +37,7 @@ const SkillCard = ({ name, value }) => {
         })
     }
     return (
-        <div className='card w-[340px] h-[205px] text-center'>
+        <div className='card w-[320px] md:w-[340px] lg:w-[340px] h-[205px] text-center'>
             <div className='mb-[15px]'>
                 <div className="container">
                     <div className='circular-progress' style={{ background: `conic-gradient(#72e2ae  ${value * 3.6}deg, #ededed 0deg)` }}>
