@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
     return (
-        <section className='bg-[#0b1224] pt-[37px]'>
+        <section className='bg-transparent md:bg-[#0b1224] lg:bg-[#0b1224] pt-[37px]'>
             <div className='flex flex-col justify-center items-center'>
                 <div className='avatar'>
                     <div className='img-holder'>

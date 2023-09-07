@@ -42,7 +42,7 @@ const SkillCard = ({ name, value }) => {
                 <div className="container">
                     <div className='circular-progress' style={{ background: `conic-gradient(#72e2ae  ${value * 3.6}deg, #ededed 0deg)` }}>
                         <span className='progress-value text-white'>
-                            {value}
+                            {value}%
                         </span>
                     </div>
                 </div>
