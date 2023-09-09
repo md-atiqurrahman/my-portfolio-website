@@ -10,31 +10,26 @@ const Navbar = () => {
     <>
       <li className="navbar-item">
         <CustomLink as={Link} to="/">
-          <span className="text-black lg:text-primary">01. </span>
           Home
         </CustomLink>
       </li>
       <li className="navbar-item">
         <AnchorLink href="#about">
-          <span className="text-black lg:text-primary">02. </span>
           About
         </AnchorLink>
       </li>
       <li className="navbar-item">
         <AnchorLink href="#skills">
-          <span className="text-black lg:text-primary">03. </span>
           Skills
         </AnchorLink>
       </li>
       <li className="navbar-item">
         <AnchorLink href="#projects">
-          <span className="text-black lg:text-primary">04. </span>
           Projects
         </AnchorLink>
       </li>
       <li className="navbar-item">
         <AnchorLink href="#contacts">
-          <span className="text-black lg:text-primary">05. </span>
           Contacts
         </AnchorLink>
       </li>
